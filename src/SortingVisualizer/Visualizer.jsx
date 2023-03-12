@@ -161,7 +161,7 @@ const Visualizer = () => {
 						<div
 							className='arrayBar'
 							style={{
-								height: `${item.val}px`,
+								height: `${item.val*100/window.innerHeight}vh`,
 								backgroundColor: colors.primaryColor,
 							}}
 							key={item.idx}
